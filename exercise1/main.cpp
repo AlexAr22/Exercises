@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
     char path[50];
+    cout << "Enter the path: ";
     cin >> path; cout << endl;
     ifstream fin; 
     const int n = 13;

@@ -16,6 +16,7 @@ int main()
 
 
     char path[50];
+    cout << "Enter rhe path: ";
     cin >> path; cout << "\n";
     ifstream fin;
     int x1, x2, x3, x4, y1, y2, y3, y4; // Вершины четырехугольника
